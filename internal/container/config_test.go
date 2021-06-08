@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/spiral/roadrunner-binary/v2/internal/container"
+	"github.com/outway/roadrunner-binary/v2/internal/container"
 
 	endure "github.com/spiral/endure/pkg/container"
 	"github.com/spiral/roadrunner/v2/plugins/config"
