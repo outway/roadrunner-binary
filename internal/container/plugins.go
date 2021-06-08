@@ -1,25 +1,27 @@
 package container
 
 import (
-	"github.com/spiral/roadrunner/v2/plugins/gzip"
-	"github.com/spiral/roadrunner/v2/plugins/headers"
-	httpPlugin "github.com/spiral/roadrunner/v2/plugins/http"
-	"github.com/spiral/roadrunner/v2/plugins/informer"
-	"github.com/spiral/roadrunner/v2/plugins/logger"
-	"github.com/spiral/roadrunner/v2/plugins/memory"
-	"github.com/spiral/roadrunner/v2/plugins/metrics"
-	"github.com/spiral/roadrunner/v2/plugins/redis"
-	"github.com/spiral/roadrunner/v2/plugins/reload"
-	"github.com/spiral/roadrunner/v2/plugins/resetter"
-	rpcPlugin "github.com/spiral/roadrunner/v2/plugins/rpc"
-	"github.com/spiral/roadrunner/v2/plugins/server"
-	"github.com/spiral/roadrunner/v2/plugins/service"
-	"github.com/spiral/roadrunner/v2/plugins/static"
-	"github.com/spiral/roadrunner/v2/plugins/status"
-	"github.com/spiral/roadrunner/v2/plugins/websockets"
-	"github.com/temporalio/roadrunner-temporal/activity"
-	temporalClient "github.com/temporalio/roadrunner-temporal/client"
-	"github.com/temporalio/roadrunner-temporal/workflow"
+    "log"
+
+    endure "github.com/spiral/endure/pkg/container"
+    // plugins
+    // "github.com/spiral/roadrunner-binary/v2/cli"
+    "github.com/outway/roadrunner-binary/v2/internal/cli"
+    httpPlugin "github.com/spiral/roadrunner/v2/plugins/http"
+    "github.com/spiral/roadrunner/v2/plugins/informer"
+    //"github.com/spiral/roadrunner/v2/plugins/kv/boltdb"
+    //"github.com/spiral/roadrunner/v2/plugins/kv/memcached"
+    //"github.com/spiral/roadrunner/v2/plugins/kv/memory"
+    "github.com/spiral/roadrunner/v2/plugins/logger"
+    "github.com/spiral/roadrunner/v2/plugins/metrics"
+    "github.com/spiral/roadrunner/v2/plugins/redis"
+    "github.com/spiral/roadrunner/v2/plugins/reload"
+    "github.com/spiral/roadrunner/v2/plugins/resetter"
+    "github.com/spiral/roadrunner/v2/plugins/rpc"
+    "github.com/spiral/roadrunner/v2/plugins/server"
+    "github.com/temporalio/roadrunner-temporal/activity"
+    temporalClient "github.com/temporalio/roadrunner-temporal/client"
+    "github.com/temporalio/roadrunner-temporal/workflow"
 )
 
 // Plugins returns active plugins for the endure container. Feel free to add or remove any plugins.
