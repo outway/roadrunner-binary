@@ -4,7 +4,7 @@ import (
 	"net"
 	"testing"
 
-	"github.com/spiral/roadrunner-binary/v2/internal/rpc"
+	"github.com/outway/roadrunner-binary/v2/internal/rpc"
 
 	"github.com/spiral/roadrunner/v2/plugins/config"
 	"github.com/stretchr/testify/assert"
