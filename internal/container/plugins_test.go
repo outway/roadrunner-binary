@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/spiral/roadrunner-binary/v2/internal/container"
+	"github.com/outway/roadrunner-binary/v2/internal/container"
 )
 
 func TestPlugins(t *testing.T) {
