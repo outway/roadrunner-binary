@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/spiral/roadrunner-binary/v2/internal/debug"
+	"github.com/outway/roadrunner-binary/v2/internal/debug"
 
 	"github.com/stretchr/testify/assert"
 )
