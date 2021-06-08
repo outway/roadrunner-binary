@@ -1,4 +1,4 @@
-module github.com/spiral/roadrunner-binary/v2
+module github.com/outway/roadrunner-binary/v2
 
 go 1.16
 
