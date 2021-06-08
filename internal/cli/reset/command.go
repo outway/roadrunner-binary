@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"sync"
 
-	internalRpc "github.com/spiral/roadrunner-binary/v2/internal/rpc"
+	internalRpc "github.com/outway/roadrunner-binary/v2/internal/rpc"
 
 	"github.com/fatih/color"
 	"github.com/mattn/go-runewidth"
