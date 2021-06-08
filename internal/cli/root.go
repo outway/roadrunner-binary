@@ -6,11 +6,11 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/spiral/roadrunner-binary/v2/internal/cli/reset"
-	"github.com/spiral/roadrunner-binary/v2/internal/cli/serve"
-	"github.com/spiral/roadrunner-binary/v2/internal/cli/workers"
-	dbg "github.com/spiral/roadrunner-binary/v2/internal/debug"
-	"github.com/spiral/roadrunner-binary/v2/internal/meta"
+	"github.com/outway/roadrunner-binary/v2/internal/cli/reset"
+	"github.com/outway/roadrunner-binary/v2/internal/cli/serve"
+	"github.com/outway/roadrunner-binary/v2/internal/cli/workers"
+	dbg "github.com/outway/roadrunner-binary/v2/internal/debug"
+	"github.com/outway/roadrunner-binary/v2/internal/meta"
 
 	"github.com/joho/godotenv"
 	"github.com/spf13/cobra"
